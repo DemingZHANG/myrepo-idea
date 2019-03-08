@@ -6,6 +6,10 @@ public class User {
     private String password;
     private Integer age;
 
+    public User(String username) {
+        this.username = username;
+    }
+
     public Integer getAge() {
         return age;
     }
